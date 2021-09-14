@@ -13,9 +13,13 @@
         <element id="directory" name="classes">
           <element id="module-output" name="Lalandia-Backend" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.23" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.11.4" />
+        </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$USER_HOME$/source/repos/Java/Lalandia/Lalandia-Backend/target/Lalandia-Backend-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/target/Lalandia-Backend-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="Lalandia-Backend/web/Web" />
     </root>
